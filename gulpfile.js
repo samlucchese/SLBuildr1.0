@@ -5,6 +5,7 @@ var gulp  = require('gulp'),
     browserSync = require('browser-sync').create(),
     filter = require('gulp-filter'),
     touch = require('gulp-touch-cmd'),
+	sass = require('gulp-sass'),
     plugin = require('gulp-load-plugins')();
 
 
@@ -12,7 +13,7 @@ var gulp  = require('gulp'),
 // Modify these variables to match your project needs
 
 // Set local URL if using Browser-Sync
-const LOCAL_URL = 'http://jointswp.local/';
+const LOCAL_URL = 'http://local.jointswp.com/';
 
 // Set path to Foundation files
 const FOUNDATION = 'node_modules/foundation-sites';
